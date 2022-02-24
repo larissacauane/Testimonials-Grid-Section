@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 
 ## 💻 Projeto
-Este projeto é um desafio do <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">Front End Mentor</a>. É possível acessar o projeto através <a href="https://vibrant-booth-eeeeda.netlify.app/">deste link.</a> 
+Este projeto é um desafio do <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">Front End Mentor</a>. É possível acessar o projeto através <a href="https://stoic-roentgen-d49a6e.netlify.app/">deste link.</a> 
 
 
 ## ⚙ Como executar

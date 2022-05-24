@@ -34,12 +34,10 @@ body {
 /* TESTIMONIALS */
 /* ================================== */
 .testimonials {
-  background-color: red;
   display: grid;
   gap: 1.6rem;
   padding: 2.8rem;
   border-radius: 0.8rem;
-  font-size: 1rem;
   box-shadow: 10px 10px 20px hsla(0, 0%, 81%, 0.541);
 }
 
@@ -49,6 +47,7 @@ body {
 .testimonials-profile {
   display: flex;
   gap: 1.2rem;
+  height: 4.6rem;
 }
 
 .testimonials .testimonials-profile .img-profile-container img {
@@ -74,13 +73,11 @@ body {
 .testimonials > p:first-of-type {
   font-size: 2.12rem;
   font-weight: 600;
-  line-height: 1.2;
 }
 
 .testimonials > p:last-of-type {
   opacity: 0.7;
   font-size: 1.45rem;
-  line-height: 1.4;
 }
 
 /* ================================== */
@@ -122,105 +119,3 @@ body {
 .text-color-secondary {
   color: var(--very-dark-grayish-blue);
 }
-
-/* .flex{
-    display: flex;
-    gap: 1rem;
-}
-
-.space > *:where(:not(:first-child)){ 
-}  
-
-.bg-violet{
-    background-color: var(--moderate-violet);
-}
-
-.bg-grayish-blue{
-    background-color: var(--very-dark-grayish-blue);
-    color: var(--white);
-}
-
-.bg-blackish-blue{
-    background-color: var(--very-dark-blackish-blue);
-    color: var(--white);
-}
-
-.bg-white{
-    background-color: var(--white);
-}
-
-.text-color-neutral{
-    color: var(--white);
-}
-
-.text-color-secondary{
-    color: var(--very-dark-grayish-blue);
-}
-
-
-body{
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
-    line-height: 1.5;
-    background-color: var(--bg-color);
-}
-
-.grid-testimonials{
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(4, 1fr);
-    padding-block: 2rem;
-    width: min(95%, 76rem);
-}
-
-.testimonials{
-    padding: 2rem;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    box-shadow: 10px 10px 20px hsl(0, 0%, 81%);
-}
-
-.grid-col-span-2{
-    grid-column: span 2;
-}
-
-.testimonials:last-child{
-    grid-column-start: 4;
-    grid-row: 1/ span 2;
-}
-
-
-.testimonials.quote{
-    background-image: url("/images/bg-pattern-quotation.svg");
-    background-repeat: no-repeat;
-    background-position: top right 10%;
-}
-
-.testimonials img{
-    border-radius: 50%;
-    width: 1.75rem;
-}
-
-
-.testimonials .name{
-    font-size: .8rem;
-    font-weight: 500;
-    line-height: 1;
-}
-
-.testimonials .position{
-    font-size: .8rem;
-    opacity: 0.5;
-    font-weight: 500;
-}
-
-.testimonials > p:first-of-type{
-    font-size: 1.3rem;
-    line-height: 1.2;
-}
-
-.testimonials > p:last-of-type{
-    opacity: 0.7;
-
-} */
